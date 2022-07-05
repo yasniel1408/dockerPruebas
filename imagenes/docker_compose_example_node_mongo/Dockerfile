@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:18.4.0
 
 COPY [".", "/usr/src/"]
 

@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: platziapp
+    image: dockerpruebas
     environment:
       MONGO_URL: "mongodb://db:27017/test"
     depends_on:
