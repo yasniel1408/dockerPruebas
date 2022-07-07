@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - "3000-3001:3000" #para asignar rango de asignacion con el scale
+
+  db:
+    image: mongo
